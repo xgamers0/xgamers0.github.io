@@ -1,0 +1,80 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Comic Sans MS, Helvetica, sans-serif;
+}
+
+
+header {
+  background-image : url("E:/HTML-CSS/Picture/x gamer's cover.jpg");
+  padding: 10px;
+  text-align: center-left;
+  font-size: 0px;
+  color: white;
+  height:300px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 70px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #aaa;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+article {
+
+  background-color: #cccccc;
+  float: right;
+  padding: 20px;
+  width: 75%;
+  background-color: #f1f1f1;
+  height: 1000px; 
+}
+
+
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 20px;
+  height: 200px
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+
+</style>
